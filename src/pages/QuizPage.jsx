@@ -1,12 +1,9 @@
 // rrd import
 import { useParams } from "react-router-dom";
-
 // hooks
 import { useFetch } from "../hooks/useFetch";
-
 // react hooks
 import { useEffect } from "react";
-
 // components
 import Test from "../components/Test";
 
@@ -16,7 +13,7 @@ function QuizPage() {
     data: quizzes,
     isPending,
     error,
-  } = useFetch(`http://localhost:3000/quizzes`);
+  } = useFetch(`http://localhost:3000/quizzes?title=${data.quiz}`);
 
   useEffect(() => {
     document.title = data.quiz + " " + "Quiz";
@@ -26,7 +23,7 @@ function QuizPage() {
     <section className="quiz-container container">
       {isPending && <h3>Pending...</h3>}
       {error && <h3>Something went wrong :(</h3>}
-      {quizzes && <Test question={quizzes[0]} />}
+      {quizzes && <Test questions={quizzes[0]} />}
     </section>
   );
 }

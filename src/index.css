@@ -291,6 +291,12 @@ header input:checked + span span:first-child {
   display: block;
 }
 
+.home-title h5 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
 .home-content p {
   font-style: italic;
   font-size: 20px;
@@ -472,11 +478,30 @@ body.dark-mode .test-label:has(> input:checked) .test-letter {
   }
 }
 
+.test-completed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .test-btn {
   position: absolute;
   left: 0;
   width: 100%;
   margin-top: 32px;
+}
+
+.next-btn {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.result-btn {
+  width: 100%;
+  text-align: center;
 }
 
 .test-completed-body {
@@ -487,6 +512,7 @@ body.dark-mode .test-label:has(> input:checked) .test-letter {
   flex-direction: column;
   align-items: center;
   margin-bottom: 32px;
+  width: 100%;
 }
 
 .test-completed .menu-item {
