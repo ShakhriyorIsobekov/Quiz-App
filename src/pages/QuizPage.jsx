@@ -13,7 +13,7 @@ function QuizPage() {
     data: quizzes,
     isPending,
     error,
-  } = useFetch(`http://localhost:3000/quizzes?title=${data.quiz}`);
+  } = useFetch(`https://your-project.vercel.app/data.json?title=${data.quiz}`);
 
   useEffect(() => {
     document.title = data.quiz + " " + "Quiz";

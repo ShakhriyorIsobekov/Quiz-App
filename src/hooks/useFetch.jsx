@@ -15,10 +15,10 @@ export function useFetch(url) {
         }
         const data = await req.json();
         setData(data);
-        setIsPending(false);
       } catch (err) {
         setError(err.message);
         console.log(err.message);
+      } finally {
         setIsPending(false);
       }
     };

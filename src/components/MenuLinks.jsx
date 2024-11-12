@@ -8,7 +8,7 @@ function MenuLinks() {
     data: quizzes,
     isPending,
     error,
-  } = useFetch("http://localhost:3000/quizzes");
+  } = useFetch("https://your-project.vercel.app/data.json");
   return (
     <div>
       {isPending && <h2>Loading...</h2>}
