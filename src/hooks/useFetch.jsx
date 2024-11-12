@@ -14,7 +14,8 @@ export function useFetch(url) {
           throw new Error(req.statusText);
         }
         const data = await req.json();
-        setData(data);
+        console.log("Fetched data:", data);
+        setData(data.quizzes);
       } catch (err) {
         setError(err.message);
         console.log(err.message);
