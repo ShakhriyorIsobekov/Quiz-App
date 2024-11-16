@@ -4,5 +4,6 @@
 <br/>
 <br/>
 <p>Link: https://quiz-app-shk.vercel.app/</p>
+<a target="_blank" href="https://quiz-app-shk.vercel.app/">Project Link</a>
 <p>Portolio Link: http://shakhriyor.com.uz/</p>
 
