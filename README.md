@@ -1,6 +1,7 @@
-# React + Vite
+<h1>Quiz App ( Testing System )</h1>
+<br/>
+<p>This is the platform that has its own database with more than 50 tests in programming. Everyone has access and has an opportunity to check their level in programming. This platforn is fully complex with friendly-user interface because I used many advanced technologies. <b>For example: HTML, CSS, Tailwind Css, Javascript, React, Material-UI (MUI) and Vite </b>.  </p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
