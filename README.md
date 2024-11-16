@@ -1,9 +1,8 @@
 <h1>Quiz App ( Testing System )</h1>
 <br/>
-<p>This is the platform that has its own database with more than 50 tests in programming. Everyone has access and has an opportunity to check their level in programming. This platforn is fully complex with friendly-user interface because I used many advanced technologies. <i><b>For example: HTML, CSS, Tailwind Css, Javascript, React, Material-UI (MUI) and Vite </b>.</i></p>
+<p>"This platform features a comprehensive database of over 50 programming tests, providing users with open access to assess their programming skills. The platform boasts a user-friendly interface, built using advanced technologies such as <b><i>HTML, CSS, Tailwind CSS, JavaScript, React, Material-UI (MUI), and Vite.</i></b>"</p>
 <br/>
-<br/>
-<p>Link: https://quiz-app-shk.vercel.app/</p>
-<a target="_blank" href="https://quiz-app-shk.vercel.app/">Project Link</a>
-<p>Portolio Link: http://shakhriyor.com.uz/</p>
+<a target="_blank" href="https://quiz-app-shk.vercel.app/">Project Link</a> 
+📍
+<a href="http://shakhriyor.com.uz">Portfolio Link</a>
 
